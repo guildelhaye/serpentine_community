@@ -17,7 +17,7 @@ traits_sp <- read.csv("./data/traits_sp.csv") |> select(-X)
 
 ###### 1. Correlation structures in soil and trait data -----
 ## Soil analyses ----------------------------------------------
-# correlation begtween variables
+# correlation between variables
 plot(soil[,3:10])
 round(cor(soil[,3:10]), 2)
 
